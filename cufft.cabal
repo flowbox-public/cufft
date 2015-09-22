@@ -18,7 +18,7 @@ maintainer:          Robert Clifton-Everest <robertce@cse.unsw.edu.au>
 
 category:            Foreign
 build-type:          Custom
-cabal-version:       >=1.8
+cabal-version:       >=1.22
 
 Extra-tmp-files:        cufft.buildinfo config.status config.log
 Extra-source-files:     configure
