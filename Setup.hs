@@ -104,7 +104,7 @@ getCudaLibraryPath (CudaPath path) (Platform arch os) = path </> libSubpath
          _       -> "lib"  -- TODO how should this be handled?
 
 getCudaLibraries :: [String]
-getCudaLibraries = ["cudart", "cuda"]
+getCudaLibraries = ["cufft", "cuda"]
 
 
 -- Generates build info with flags needed for CUDA Toolkit to be properly
